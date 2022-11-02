@@ -23,6 +23,9 @@ $(call inherit-product, device/realme/x3/device.mk)
 
 # Inherit common Blaze configurations
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
+
+# Blaze Official Stuff
+BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := AK
 
 # Bootanimation Resolution
