@@ -27,6 +27,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 # Blaze Official Stuff
 BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := AK
+TARGET_SUPPORTS_BLUR := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
